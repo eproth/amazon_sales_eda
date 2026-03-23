@@ -16,34 +16,34 @@ This project aims to analyze Amazon’s product data to uncover insights that ca
 - Provide data-driven recommendations to improve product strategy and customer experience
 
 ## Dataset Description
-In the dataset, there are over 1k of Amazon product’s ratings and reviews in the csv file with the following features:
-    - product_id - product identifier
-    - product_name - name of the product
-    - category - category of the product
-    - discounted_price - discount price of the product
-    - actual_price - the price before the discount
-    - discount_percentage - calculated percentage of the discount applied to the product
-    - rating - the rating of the product
-    - rating_count - the number of people who rate the product
-    - about_product - the description of the product
-    - user_id - the ID of the user who reviewed the product
-    - user_name - the name of the user who reviewed the product
-    - review_id - the ID of the user review
-    - review_title - the short review of the user
-    - review_content - the long review of the user
-    - img_link - the image link to the product
-    - product_link - the link to the product on the official website
+In the dataset, there are over 1k of Amazon products’ ratings and reviews in the CSV file with the following features:
+- product_id - product identifier
+- product_name - name of the product
+- category - category of the product
+- discounted_price - discount price of the product
+- actual_price - the price before the discount
+- discount_percentage - calculated percentage of the discount applied to the product
+- rating - the rating of the product
+- rating_count - the number of people who rate the product
+- about_product - the description of the product
+- user_id - the ID of the user who reviewed the product
+- user_name - the name of the user who reviewed the product
+- review_id - the ID of the user review
+- review_title - the short review of the user
+- review_content - the long review of the user
+- img_link - the image link to the product
+- product_link - the link to the product on the official website
 
 ## Data Cleaning
 The following steps were performed to prepare the dataset:
 - Removed missing and duplicate values
 - Converted price columns to numeric format
 - Cleaned invalid rating values
-- Split category column into main_category and sub_category
+- Split the category column into main_category and sub_category
 
 
 ## Exploratory Data Analysis (EDA)
-In this project, the key analyses performed includes:
+In this project, the key analyses performed include:
 - Product distribution across categories
 - Average rating by category and sub-category
 - Discount analysis across products
@@ -80,14 +80,14 @@ In this project, the key analyses performed includes:
 
 ## Business Recommendations
 Based on the key insights and findings, Amazon should:
-- Prioritize promoting products "Computers & Accessories" category as “best value for money” to attract price-sensitive customers and increase conversion rates.
+- Prioritize promoting products in the "Computers & Accessories" category as “best value for money” to attract price-sensitive customers and increase conversion rates.
 - Emphasize "Electronics" for major promotional campaigns to attract customers due to high discount prices.
 - Focus on improving product quality and customer experience rather than relying heavily on discount strategies.
 - Regularly monitor products in high-volume categories, removing or improving low-performing items to maintain overall customer satisfaction.
 - Incorporate the value score metric into recommendation systems to highlight “best value” products to customers.
 
 ## Conclusion
-Overall, the analysis of Amazon product ratings, reviews, and pricing shows clear differences across categories in both catalog size and discount behavior. Moreover, key results indicate that customer satisfaction in this dataset is driven more by product performance/quality than by promotional depth. Therefore, Amazon should focus on balancing pricing strategies with product quality to maximize their performance.
+Overall, the analysis of Amazon product ratings, reviews, and pricing shows clear differences across categories in both catalog size and discount behavior. Moreover, key results indicate that customer satisfaction in this dataset is driven more by product performance/quality than by promotional depth. Therefore, Amazon should focus on balancing pricing strategies with product quality to maximize its performance.
 
 ## Limitations and Future Improvements
 Limitations to keep in mind
