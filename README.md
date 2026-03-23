@@ -1,16 +1,19 @@
 # Amazon Sales EDA
 
 ## Project Description
-Amazon is an American Tech Multi-National Company whose business interests include E-commerce, where they buy and store the inventory, and take care of everything from shipping and pricing to customer service and returns.
+Amazon operates a large-scale e-commerce platform with thousands of products across multiple categories. Managing such a vast catalog presents challenges in optimizing pricing strategies, maintaining product quality, and ensuring high customer satisfaction.
 
-This project analyzes Amazon product data, focusing on the pricing, discounts, and customer ratings listed on the official Amazon website.
+With varying discounts, price ranges, and product ratings, it becomes difficult to determine which factors truly influence customer perception and purchasing decisions. Additionally, identifying high-performing categories and products that deliver the best value for money is essential for improving sales performance.
+
+This project aims to analyze Amazon’s product data to uncover insights that can help optimize pricing strategies, improve product offerings, and support data-driven decision-making to enhance overall customer experience.
 
 ## Objectives
-- Clean and prepare data for proper analysis
-- Analyze product categories and sub-categories
-- Identify top-rated and best-value products
-- Examine the relationship between price, discounts, and ratings
-- Provide actional business recommendations
+- Analyze the distribution of products across categories and sub-categories
+- Identify top-performing products based on ratings and value for money
+- Evaluate pricing and discount patterns across different product categories
+- Examine the relationship between price, discount, and customer ratings
+- Identify high-value products using a value score metric
+- Provide data-driven recommendations to improve product strategy and customer experience
 
 ## Dataset Description
 In the dataset, there are over 1k of Amazon product’s ratings and reviews in the csv file with the following features:
@@ -83,10 +86,6 @@ Based on the key insights and findings, Amazon should:
 - Regularly monitor products in high-volume categories, removing or improving low-performing items to maintain overall customer satisfaction.
 - Incorporate the value score metric into recommendation systems to highlight “best value” products to customers.
 
-## Tools & Technologies
-- Python (Pandas, Numpy, Matplotlib, Seaborn)
-- Jupyter Notebook
-
 ## Conclusion
 Overall, the analysis of Amazon product ratings, reviews, and pricing shows clear differences across categories in both catalog size and discount behavior. Moreover, key results indicate that customer satisfaction in this dataset is driven more by product performance/quality than by promotional depth. Therefore, Amazon should focus on balancing pricing strategies with product quality to maximize their performance.
 
@@ -99,3 +98,7 @@ Future work could strengthen the study by
 - Build a product recommendation system
 - Perform sentiment analysis on customer reviews
 - Develop an interactive dashboard
+
+## Tools & Technologies
+- Python (Pandas, Numpy, Matplotlib, Seaborn)
+- Jupyter Notebook
